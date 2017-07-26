@@ -4,7 +4,7 @@ FROM car_models;
 
 -- -- --6
 SELECT DISTINCT model_title
-FROM car_models c
+FROM car_models cGG
 WHERE c.make_code = 'VOLKS'
 GROUP BY model_title;
 
